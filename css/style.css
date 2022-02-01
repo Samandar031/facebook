@@ -54,3 +54,54 @@ nav input {
   justify-content: center;
   align-items: center;
 }
+
+/* home page */
+
+.home-page {
+  text-align: center;
+  height: 580px;
+}
+
+.home {
+  width: 1200px;
+  margin: 0 auto;
+  height: 450px;
+
+  background-color: rgb(224, 222, 222);
+}
+
+.home-page img {
+  width: 100px;
+  height: 100px;
+  margin-top: 365px;
+}
+
+.home-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  bottom: 10px;
+  width: 89%;
+  margin: 70px auto;
+  border-top: 1px solid gray;
+}
+
+.home-navigation ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.home-page ul li a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.home-navigation2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
